@@ -99,3 +99,34 @@ header section#hero div.herobtn button.secondbtn{
  color: white;
  border: 1px solid white;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px;
+    background-color: rgba(59, 77, 84, 1);
+    color: white;
+}
+footer div.sociallinks div.links{
+    margin-top: 15px;
+}
+footer div.sociallinks div.links a{
+   
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+#copyright{
+    background-color: rgba(59, 77, 84, 1);
+    text-align: center;
+    color: white;
+    display: block;
+
+   padding: 20px 120px;
+}
+#copyright h4{
+    margin-top: 15px;
+}
