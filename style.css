@@ -49,22 +49,29 @@ nav div.navbtn button:hover {
   color: #30b868;
   cursor: pointer;
 }
+
 header section#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(./assets/hero-bg.png);
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
   text-align: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
   color: white;
-  padding-top: 170px;
 }
 header section#hero button.early {
   background: white;
   padding: 10px 16px;
   color: #30b868;
-  font-weight: 500;
-  align-items: center;
+  font-weight: bold;
+  width: 250px;
+  font-size: 16px;
+
+  margin: 0 auto;
   text-align: center;
   border-radius: 20px;
   justify-content: center;
@@ -79,6 +86,9 @@ header section#hero h1 {
   text-transform: capitalize;
   padding: 10px;
 }
+header section#hero h1 span{
+  color: #30b868;
+}
 header section#hero p {
   font-size: 18px;
   padding: 0 10px 10px 10px;
@@ -87,8 +97,10 @@ header section#hero div.herobtn button {
   margin: 10px;
   border-radius: 5px;
   padding: 10px;
+  font-size: 16px;
   border: none;
   text-align: center;
+  font-weight: 500;
   cursor: pointer;
 }
 header section#hero div.herobtn button:hover {
@@ -123,15 +135,12 @@ main .topics {
   justify-content: space-between;
 }
 main .topics .topic {
-
   box-shadow: 0 0 5px rgba(70, 67, 67, 0.3);
   padding: 50px 16px;
   margin-top: 20px;
   text-align: center;
 }
-.topic:hover {
-  border: 1px solid rgba(70, 67, 67, 0.3);
-}
+
 .topic img,
 h3,
 p {
@@ -163,7 +172,7 @@ ul {
   padding: 10px;
 }
 .righttexts h4 {
-  color: rgb(87, 86, 86);
+  color: #30b868;
 }
 #challenge {
   background-color: #f7f6f2;
@@ -234,4 +243,5 @@ footer div.sociallinks div.links a:hover {
 }
 #copyright h5 {
   margin-top: 15px;
+  font-size: 12px;
 }
